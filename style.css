@@ -1,0 +1,286 @@
+* {
+  font-family: 'Open Sans', sans-serif;
+  box-sizing: border-box;
+
+  font-size: 18px;
+}
+
+body{
+  background-color: black;
+  color: white;
+}
+
+a:link, a:visited, a:hover, a:active{
+text-decoration: none;
+color: white;
+font-style: italic;
+}
+
+hr{
+  width: 90%;
+  border: 0;
+  height: 1px;
+  background: #333;
+  background-image: linear-gradient(to right, #ccc, #333, #ccc);
+}
+
+p.error{
+  color: red;
+  font-weight: bold;
+}
+
+p.info{
+  color: green;
+  font-weight: bold;
+}
+
+a.button {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    -ms-appearance: button;
+    appearance: button;
+    text-decoration: none;
+    color: initial;
+    font-size: 18px;
+    font-weight: normal;
+    font-style: normal;
+    font-family: 'Open Sans', sans-serif;
+    padding: 0.18em;
+}
+
+.button{
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  color: black;
+  font-family: 'Open Sans', sans-serif;
+
+}
+
+
+input[type="checkbox"] {
+    display:none;
+}
+
+input[type="checkbox"] + label {
+    color:white;
+}
+
+input[type="checkbox"] + label span {
+    display:inline-block;
+    width:25px;
+    height:25px;
+    font-size: 15px;
+    margin: 5px 5px 0 0;
+    vertical-align:middle;
+    background-color: green;
+    cursor:pointer;
+    box-shadow: 0px 1px 3px rgba(0,0,0,0.5);
+
+
+}
+
+input[type="checkbox"]:checked + label span {
+    background-color: grey;
+    box-shadow: 0px 1px 3px rgba(0,0,0,0.5);
+}
+
+input[type="checkbox"]:disabled + label span {
+    background-color: red;
+    box-shadow: 0px 1px 3px rgba(0,0,0,0.5);
+}
+
+#container{
+  width: 1300px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+
+}
+
+#top{
+   margin-top: 20px;
+   text-align: center;
+}
+
+#cont_sala{
+  width: 900px;
+  height: 525px;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+#top_sala{
+  height: auto;
+  width: 900px;
+  margin-bottom: 0.5em;
+  padding: 1.0em;
+  text-align: center justify;
+
+}
+
+#left_sala{
+  padding: 0.5em;
+  width: 600px;
+  float: left;
+
+}
+#t_left_sala{
+  padding: 0.5em;
+  width: 600px;
+  height: auto;
+  margin-left: -2%;
+  margin-bottom: 1em;
+
+
+}
+
+}
+#m_left_sala{
+  width: auto;
+  float: center;
+  text-align: center;
+
+}
+
+
+#right_sala{
+  width: 250px;
+  float: left;
+  text-align: left justify;
+
+
+}
+#footer_sala{
+  width: 1000px;
+  float: left;
+  text-align: center justify;
+
+}
+
+
+
+#in{
+  border: 2px dotted;
+  border-color: black;
+  padding: 0.2em;
+}
+
+#movie{
+  width: 1250px;
+
+
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+
+}
+
+#header_movie{
+  width: 1250px;
+
+  border-bottom: 1px solid;
+  float: left;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+#title_movie{
+  width: 400px;
+  height: auto;
+
+  height: auto;
+  float: left;
+
+}
+
+
+
+
+div.day{
+  width: 115px;
+ float: left;
+ height: auto;
+
+
+}
+
+
+
+
+
+
+
+#in_movie{
+  width: 990px;
+  height: 250px;
+/*/  border: 1px dotted;*/
+
+  border-top: 1px solid;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  margin-top: 10px;
+}
+
+#cover{
+  width: 150px;
+  height: 190px;
+
+  margin-top: 25px;
+  margin-left: 2px;
+  float: left;
+
+}
+
+#title{
+  width: 830px;
+  height: 25px;
+  float: left;
+
+  margin-left: 2px;
+  margin-top: 2px;
+  font-weight: bold;
+  font-size: 22px;
+}
+
+#description{
+  width: 830px;
+  height: 110px;
+  float: left;
+
+  margin-left: 5px;
+  margin-top: 2px;
+  text-align: left;
+  padding: 0.5em;
+}
+
+#dates{
+  width: 830px;
+  height: 100px;
+  float: left;
+
+  margin-left: 2px;
+  margin-top: 2px;
+}
+
+#confirm_footer{
+  padding: 1em;
+}
+
+#confirm_header{
+
+  font-weight: bold;
+  font-size: 26px;
+  padding: 0.5em;
+
+
+}
+
+#confirm_body{
+  font-size: 20px;
+  padding: 0.5em;
+
+}
